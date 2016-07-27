@@ -190,7 +190,7 @@ namespace SFAPP
                     SetLastSyncDateTimeInNAV(dt.AddSeconds(5));                    
                 }
                 else Console.WriteLine("Nothing insert");
-                Logging.Writelog("Insert to SF END, " + InsertCount.ToString() + " records inserted1");
+                Logging.Writelog("Insert to SF END, " + InsertCount.ToString() + " records inserted");
                 Logging.Writelog("-----------------------------------------------------");
                 Console.ReadLine();
             }
