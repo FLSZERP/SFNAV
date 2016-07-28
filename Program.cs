@@ -15,7 +15,7 @@ namespace SFAPP
             Console.WriteLine("Salesforce & NAV synchronization");
             Console.WriteLine();
             Console.WriteLine("Select one option");
-            Console.WriteLine("1. Get records from Salesforce");
+            Console.WriteLine("1. Get records from Salesforce1");
             Console.WriteLine("2. Get records from NAV");
             Console.WriteLine("3. Insert Account to Salesforce");
             Console.WriteLine("4. Insert Contact to Salesforce");
