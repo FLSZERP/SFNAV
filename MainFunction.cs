@@ -172,7 +172,7 @@ namespace SFAPP
                     if (sf.InsertContactToSF(SFcontact, out result) == true)
                     {
                         InsertCount += 1;
-                        Console.WriteLine("{0} inserted, Id on SF is {1}", contact1.No, result);
+                        Console.WriteLine("{0} inserted, Id on Salesforce is {1}", contact1.No, result);
                         Logging.Writelog(contact1.No + " inserted, Id on SF is " + result);
                     }
                     else
